@@ -1,0 +1,22 @@
+@import "../../../styles/abstract/variables";
+
+.button {
+  width: 11.8rem;
+  height: 4.5rem;
+  background-color: $primary-color;
+  color: $white-color;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  gap: .1rem;
+  cursor: pointer;
+
+  &--outline {
+    background-color: $white-color;
+    color: $primary-color;
+    border: .1rem solid $primary-color;
+  }
+}

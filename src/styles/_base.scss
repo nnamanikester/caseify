@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueBlack.otf") format("otf");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueHeavy.otf") format("otf");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueBold.otf") format("otf");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueMedium.otf") format("otf");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueRoman.otf") format("otf");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../public/fonts/HelveticaNeueThin.otf") format("otf");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: $black-color;
+}

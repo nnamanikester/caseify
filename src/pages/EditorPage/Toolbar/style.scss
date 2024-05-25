@@ -1,0 +1,33 @@
+@import "../../../styles/abstract/variables";
+
+.toolbar {
+  height: 10rem;
+  width: 100%;
+  border-top: .1rem solid $grey-color;
+  padding: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  background-color: $white-color;
+
+  .tabs {
+    display: flex;
+    gap: .6rem;
+
+    .tab {
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: .6rem;
+      background-color: $grey-color;
+      color: $black-color;
+      border: none;
+      cursor: pointer;
+
+      &--active {
+        background-color: $primary-color;
+        color: $white-color;
+      }
+    }
+  }
+}
